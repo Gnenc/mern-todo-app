@@ -28,3 +28,15 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `docker build -t mern-todo-app .`
+
+Create docker image with given Dockerfile.
+
+### `sudo docker run -d -p 5000:5000 mern-todo-app:latest`
+
+Run the created docker with exposed 5000.
+
+### `docker-compose up`
+
+Start app and mongodb docker.
